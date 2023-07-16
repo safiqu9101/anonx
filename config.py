@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/taitan-x/anonx")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/taitanoffice")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/THEYSTOPPAGE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/taitanxbot")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ll_Time_Pass_Group_ll")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
