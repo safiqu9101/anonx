@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀dd 𝐓αɪᴛαи 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
+                text="✚ ᴀᴅᴅ мє το ʏουя gяουρ ✚",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="𝑯𝒆𝒍𝒑",
+                text=" ᴄᴏᴍᴍᴀɴᴅ ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔", callback_data="settings_helper"
+                text=" ꜱᴇᴛᴛɪɴɢꜱ ", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,16 +30,31 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="𝐀dd 𝐓αɪᴛαи 𝐌υ𝗌𝗂ç 𝐈𐓣 𝐆ʀσup",
+                text="нοᴡ το υѕє мє? ϲοммαиᴅ мєиυ.", callback_data="settings_back_helper"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="🥀 ɢяουᴘ 💥", url=f"http://t.me/ll_Time_Pass_Group_ll",
+            ),
+            InlineKeyboardButton(
+                text="🥀 ᴄнαииєʟ 💥", url=f"https://t.me/TaitanXbot",
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✚ ᴀᴅᴅ мє το ʏουя gяουρ ✚",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text=" 𝑯𝒆𝒍𝒑 ", callback_data="settings_back_helper",
+                text="✨ οωиєя ✨",
+                url=f"https://t.me/taitangamer",
             ),
             InlineKeyboardButton(
-                text="𝐓αɪᴛαи 𝐌υ𝗌𝗂ç", url=f"https://music.apple.com/"
+                text="💮 ѕουяϲє 💮",
+                url=f"https://t.me/taitangamer",
             )
         ],
      ]
