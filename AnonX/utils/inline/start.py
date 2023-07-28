@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="✚ ᴀᴅᴅ мє το ʏουя gяουρ ✚",
+                text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text=" ᴄᴏᴍᴍᴀɴᴅ ",
+                text="ʜᴇʟᴩ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text=" ꜱᴇᴛᴛɪɴɢꜱ ", callback_data="settings_helper"
+                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
             ),
         ],
      ]
@@ -35,7 +35,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🥀 ɢяουᴘ 💥", url=f"http://t.me/ll_Time_Pass_Group_ll",
+                text="🥀 ɢяουᴘ 💥", url=f"http://t.me/DOSTO_KI_PIYAR",
             ),
             InlineKeyboardButton(
                 text="🥀 ᴄнαииєʟ 💥", url=f"https://t.me/TaitanXbot",
